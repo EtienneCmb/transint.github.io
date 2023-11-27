@@ -35,7 +35,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -158,11 +158,11 @@
    * Gallery Slider
    */
   new Swiper('.gallery-slider', {
-    speed: 400,
+    speed: 1000,
     loop: true,
     centeredSlides: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -192,7 +192,7 @@
   });
 
   /**
-   * Initiate gallery lightbox 
+   * Initiate gallery lightbox
    */
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
@@ -205,7 +205,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 15000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
